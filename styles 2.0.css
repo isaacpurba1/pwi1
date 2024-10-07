@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.profile {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+table {
+    border-collapse: collapse; 
+    margin-top: 10px; 
+    width: 100%; 
+}
+
+th, td {
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+/* Collumn Widths */
+th:first-child,
+td:first-child {
+    width: 40%; 
+}
+
+th:last-child,
+td:last-child {
+    width: 60%; 
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold; 
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /*zebra pattern*/
+}
+
+tr:hover {
+    background-color: #e9ecef; 
+}
+  
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact {
+    margin-top: 20px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
